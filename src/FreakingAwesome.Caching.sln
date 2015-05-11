@@ -11,6 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreakingAwesome.Caching.Red
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreakingAwesome.Caching.Redis.Tests", "FreakingAwesome.Caching.Redis.Tests\FreakingAwesome.Caching.Redis.Tests.csproj", "{AAA6771C-6ECD-492F-9CF2-AF9884D5357E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{72F17A35-08E5-40FD-86DE-D75F362DBD8D}"
+	ProjectSection(SolutionItems) = preProject
+		SharedVersioning.cs = SharedVersioning.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
